@@ -1,15 +1,15 @@
 ### Getting Started with Project Setup
 
 #### Build Docker Image
-``sh
+```sh
 sudo docker build --tag flask-file-app .
-``
+```
 
 #### Run Docker Image
 
-``sh
+```sh
 sudo docker run --name flask-file-app -p 5001:5001 flask-file-app
-``
+```
 
 ### API DOCUMENT
 #### API URL
