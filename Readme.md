@@ -20,16 +20,16 @@ sudo docker run --name flask-file-app -p 5001:5001 flask-file-app
 ### Body
 
 #### Required Params
-``
-"action":String # expected values : read,download
-``
+```sh
+"action":String # expected values : read, download
+```
 #### Optional Params
 ```sh
 "file_name":String # Use this param to save file with custom name 
 
 "url":String #Use this param to perform action on custom file url
 ```
-#### Sample Download Action Request
+### Sample Download Action Request
 
 ```sh
 ## Request Body
