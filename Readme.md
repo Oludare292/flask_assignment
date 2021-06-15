@@ -2,13 +2,13 @@
 
 #### Build Docker Image
 ```sh
-sudo docker build --tag flask-file-app .
+sudo docker build -t flask-file-server:latest .
 ```
 
 #### Run Docker Image
 
 ```sh
-sudo docker run --name flask-file-app -p 5001:5001 flask-file-app
+sudo docker run -d -p 5000:5000 flask-file-server
 ```
 
 ### API DOCUMENT
