@@ -77,4 +77,4 @@ def mainapp():
 if __name__ == '__main__':
     print("Running Server")
     app = mainapp()
-    app.run()
+    app.run(host='0.0.0.0', debug=True)
